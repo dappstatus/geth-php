@@ -1,5 +1,5 @@
 {
-  "name": "kemalevren/geth-php",
+  "name": "dappstatus/geth-php",
   "description": "A PHP wrapper to the geth JSON-RPC API.",
   "keywords": [
     "geth",
@@ -24,16 +24,16 @@
   },
   "autoload": {
     "psr-4": {
-      "kemalevren\\Geth\\": "src/"
+      "dappstatus\\Geth\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "kemalevren\\Geth\\Laravel5\\GethPhpServiceProvider"
+        "dappstatus\\Geth\\Laravel5\\GethPhpServiceProvider"
       ],
       "aliases": {
-        "JsonRpc": "kemalevren\\Geth\\Laravel5\\Facades\\JsonRpc"
+        "JsonRpc": "dappstatus\\Geth\\Laravel5\\Facades\\JsonRpc"
       }
     }
   }

@@ -6,7 +6,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace kemalevren\Geth;
+namespace dappstatus\Geth;
 
 use Exception;
 use GuzzleHttp\Client;

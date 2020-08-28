@@ -14,13 +14,13 @@ Requirements
 Installation
 ============
 
-    composer require kemalevren/geth-php
+    composer require dappstatus/geth-php
     
     
 Usage
 =====
 ```php
-$geth = new \kemalevren\Geth\JsonRpc([
+$geth = new \dappstatus\Geth\JsonRpc([
         // Geth JSON-RPC version
         'version' => '2.0',
         // Host part of address
@@ -47,11 +47,11 @@ Add the service provider and facade in your config/app.php
 
 Service Provider
 
-    kemalevren\Geth\Laravel5\GethPhpServiceProvider::class,
+    dappstatus\Geth\Laravel5\GethPhpServiceProvider::class,
 
 Facade
 
-    'JsonRpc'   => kemalevren\Geth\Laravel5\Facades\JsonRpc::class,
+    'JsonRpc'   => dappstatus\Geth\Laravel5\Facades\JsonRpc::class,
     
 Laravel 5 Usage
 ===============

@@ -6,7 +6,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace kemalevren\Geth\Laravel5;
+namespace dappstatus\Geth\Laravel5;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,6 +19,6 @@ class GethPhpServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('JsonRpc', 'kemalevren\Geth\JsonRpc');
+        $this->app->bind('JsonRpc', 'dappstatus\Geth\JsonRpc');
     }
 }

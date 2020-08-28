@@ -6,7 +6,7 @@
  * Time: 18:33
  */
 
-namespace kemalevren\Geth\Laravel5\Facades;
+namespace dappstatus\Geth\Laravel5\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
